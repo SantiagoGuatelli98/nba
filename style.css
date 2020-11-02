@@ -73,6 +73,7 @@ nav {
     text-align: center;
     padding-inline-start: 0px;
     margin-top: 0px;
+    margin-bottom: 0px;
     border-top: #B92424 solid 2px;
 }
 
@@ -122,10 +123,20 @@ nav {
 .oneal1 { background-image: url(img/top10/oneal.jpg); color: #552583;-webkit-text-stroke: .2px white; }
 
 .separador {
-    background-color: rgb(207, 52, 52);
+    background-image: url(img/halloffame.jpg);
     border: black 2px solid;
     width: 100%;
-    height: 200px;
+    height: 310px;
+}
+.separador h1 {
+    text-align: center;
+    margin-top: 106px;
+    color: #efb810;
+    -webkit-text-stroke: 5px black;
+    font-family: Helvatica, sans-serif;
+    font-size: 104px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .jordan_contenedor {
@@ -135,13 +146,12 @@ nav {
 
 #bulls_logo  {
     width:50%;
-    height: 350px;
-    background-image: url(img/Rectangle\ 1.png);
-    background-position: center;
-
+    height: 492px;
+    
+    background-image: url(img/indexlogos/chicagobulls.png);
 }
 #desc_jordan { 
     width:50%;
-    height: 350px;
-    background-color: green;
+    height: 492px;
+    background-color: blue;
 }
