@@ -1,4 +1,4 @@
-*/* {
+* {
     box-sizing: content-box;
 }
 body { margin: 0 auto;
@@ -88,6 +88,10 @@ nav {
 }
 .top10 ul li a { 
     text-decoration: none;
+}
+
+.top10 ul li a:visited { 
+    color: currentColor;
 }
 .top10 ul li a p{ 
     text-decoration-color: red;
@@ -197,7 +201,8 @@ nav {
 #desc_jordan { 
     width:50%;
     height: 459px;
-    background-color: #edeef0;
+    background: rgb(183,3,31);
+    background: linear-gradient(90deg, rgba(183,3,31,1) 2%, rgba(7,25,35,1) 61%);
     border: black 2px solid; 
 }
 #desc_jordan h2{
@@ -255,7 +260,8 @@ nav {
     width:50%;
     height: 459px;
     border: black 2px solid; 
-    background-color: #edeef0;
+    background: rgb(253,185,39);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 2%, rgba(7,25,35,1) 55%);
 }
 #desc_kareem h2{
     text-align: center;
@@ -311,7 +317,11 @@ nav {
     width:50%;
     height: 459px;
     border: black 2px solid;
-    background-color: #edeef0;
+    background: rgb(253,185,39);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 2%, rgba(7,25,35,1) 55%); 
+    animation-name: cambiarPorcentaje;
+    animation-duration: .98;
+    animation-iteration-count: infinite;
 }
 #desc_magic h2{
     text-align: center;
@@ -407,23 +417,71 @@ nav {
     font-weight: bold;
 }
 /*-------------------------------------------------------------------------*/
-/*Kobe Bryant*/
+/*Kobe Bryant*/ 
 .kobe_contenedor {
     display: flex;
     justify-content: space-between;
+    background: rgb(253,185,39);
+background: linear-gradient(90deg, rgba(253,185,39,1) 39%, rgba(7,25,35,1) 98%);
 }
 
 #kobe_lakers_logo  {
     width:50%;
     height: 459px;
     border: black 2px solid; 
+    border-left: none;
     background-image: url(img/indexlogos/kobelakers.jpg);
 }
 #desc_kobe { 
     width:50%;
     height: 459px;
     border: black 2px solid;
-    background-color: #edeef0;
+    border-right: none;
+    background: rgb(253,185,39);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 2%, rgba(7,25,35,1) 55%);
+    animation-name: cambiarPorcentaje;
+    animation-duration: .98;
+    animation-iteration-count: infinite;
+}
+@keyframes cambiarPorcentaje {
+    0% {
+        background: rgb(253,185,39);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 10%);
+    }
+    10% {
+        background: rgb(253,185,39);
+        background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 20%);
+    }
+    20% {
+        background: rgb(253,185,39);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 30%);
+    }
+    30% {
+        background: rgb(253,185,39);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 40%);
+    }
+    40% {
+        background: rgb(253,185,39);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 55%);
+    }
+    50% {
+        content: "60%";
+    }
+    60% {
+        content: "70%";
+    }
+    70% {
+        content: "75%";
+    }
+    80% {
+        content: "50%";
+    }
+    90% {
+        content: "30%";
+    }
+    100% {
+        content: "65%";
+    }
 }
 #desc_kobe h2{
     text-align: center;
@@ -451,8 +509,8 @@ nav {
     width:50%;
     height: 459px;
     border: black 2px solid;
-    background-color: #edeef0;
-}
+    background: rgb(7,25,35);
+    background: linear-gradient(90deg, rgba(7,25,35,1) 41%, rgba(253,185,39,1) 99%);}
 #desc_oneal h2{
     text-align: center;
     color: #FDB927;
