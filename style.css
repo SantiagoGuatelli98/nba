@@ -343,7 +343,7 @@ nav {
 }
 #desc_wilt h2{
     text-align: center;
-    color: #FDB927;
+    color: #214080;
     -webkit-text-stroke: 1px black;
     font-family: Helvatica, sans-serif;
     font-size: 48px;
@@ -371,7 +371,7 @@ nav {
 }
 #desc_bird h2{
     text-align: center;
-    color: #FDB927;
+    color: #007A33;
     -webkit-text-stroke: 1px black;
     font-family: Helvatica, sans-serif;
     font-size: 48px;
@@ -399,7 +399,7 @@ nav {
 }
 #desc_duncan h2{
     text-align: center;
-    color: #FDB927;
+    color: white;
     -webkit-text-stroke: 1px black;
     font-family: Helvatica, sans-serif;
     font-size: 48px;
