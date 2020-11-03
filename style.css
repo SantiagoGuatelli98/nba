@@ -310,10 +310,150 @@ nav {
 #desc_magic { 
     width:50%;
     height: 459px;
-    border: black 2px solid; 
+    border: black 2px solid;
     background-color: #edeef0;
 }
 #desc_magic h2{
+    text-align: center;
+    color: #FDB927;
+    -webkit-text-stroke: 1px black;
+    font-family: Helvatica, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------------*/
+/*Wilt Chamberlain*/
+.wilt_contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+#wilt_76_logo  {
+    width:50%;
+    height: 459px;
+    border: black 2px solid; 
+    background-image: url(img/indexlogos/wilt_76.jpg);
+}
+#desc_wilt { 
+    width:50%;
+    height: 459px;
+    border: black 2px solid;
+    background-color: #edeef0;
+}
+#desc_wilt h2{
+    text-align: center;
+    color: #FDB927;
+    -webkit-text-stroke: 1px black;
+    font-family: Helvatica, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------------*/
+/*Larry Bird*/
+.bird_contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+#bird_logo  {
+    width:50%;
+    height: 459px;
+    border: black 2px solid; 
+    background-image: url(img/indexlogos/bird_celtics.jpg);
+}
+#desc_bird { 
+    width:50%;
+    height: 459px;
+    border: black 2px solid;
+    background-color: #edeef0;
+}
+#desc_bird h2{
+    text-align: center;
+    color: #FDB927;
+    -webkit-text-stroke: 1px black;
+    font-family: Helvatica, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------------*/
+/*Tim Duncan*/
+.duncan_contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+#duncan_logo  {
+    width:50%;
+    height: 459px;
+    border: black 2px solid; 
+    background-image: url(img/indexlogos/duncan.png);
+}
+#desc_duncan { 
+    width:50%;
+    height: 459px;
+    border: black 2px solid;
+    background-color: #edeef0;
+}
+#desc_duncan h2{
+    text-align: center;
+    color: #FDB927;
+    -webkit-text-stroke: 1px black;
+    font-family: Helvatica, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------------*/
+/*Kobe Bryant*/
+.kobe_contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+#kobe_lakers_logo  {
+    width:50%;
+    height: 459px;
+    border: black 2px solid; 
+    background-image: url(img/indexlogos/kobelakers.jpg);
+}
+#desc_kobe { 
+    width:50%;
+    height: 459px;
+    border: black 2px solid;
+    background-color: #edeef0;
+}
+#desc_kobe h2{
+    text-align: center;
+    color: #FDB927;
+    -webkit-text-stroke: 1px black;
+    font-family: Helvatica, sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+}
+/*-------------------------------------------------------------------------*/
+/*Shaquille O'Neal*/
+.oneal_contenedor {
+    display: flex;
+    justify-content: space-between;
+}
+
+#oneal_lakers_logo  {
+    width:50%;
+    height: 459px;
+    border: black 2px solid; 
+    background-image: url(img/indexlogos/oneal.jpg);
+}
+#desc_oneal { 
+    width:50%;
+    height: 459px;
+    border: black 2px solid;
+    background-color: #edeef0;
+}
+#desc_oneal h2{
     text-align: center;
     color: #FDB927;
     -webkit-text-stroke: 1px black;
