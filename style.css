@@ -202,8 +202,7 @@ nav {
 #desc_jordan { 
     width:50%;
     height: 459px;
-    background: rgb(184,2,25);
-    background: linear-gradient(90deg, rgba(184,2,25,1) 0%, rgba(7,26,33,1) 64%);
+    background-image: url(img/gradiantes/bulls.jpg);
     border-right: none;
 }
 #desc_jordan h2{
@@ -234,8 +233,7 @@ nav {
     height: 459px;
     border: black 2px solid; 
     border-left: none;
-    background: rgb(7,26,33);
-    background: linear-gradient(90deg, rgba(7,26,33,1) 48%, rgba(255,255,255,1) 100%);
+    background-image: url(img/gradiantes/miami.jpg);
 }
 #desc_lebron h2{
     text-align: center;
@@ -359,8 +357,7 @@ nav {
     width:50%;
     height: 459px;
     border: black 2px solid;
-    background: rgb(7,26,33);
-    background: linear-gradient(90deg, rgba(7,26,33,1) 48%, rgba(33,63,127,1) 100%);
+    background-image: url(img/gradiantes/phila.jpg);
     border-left: none;
 }
 #desc_wilt h2{
