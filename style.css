@@ -190,20 +190,21 @@ nav {
 .jordan_contenedor {
     display: flex;
     justify-content: space-between;
+    border: black 2px solid;
 }
 
 #bulls_logo  {
     width:50%;
     height: 459px;
-    border: black 2px solid; 
     background-image: url(img/indexlogos/chicagobulls.png);
+    border-left: none;
 }
 #desc_jordan { 
     width:50%;
     height: 459px;
-    background: rgb(183,3,31);
-    background: linear-gradient(90deg, rgba(183,3,31,1) 2%, rgba(7,25,35,1) 61%);
-    border: black 2px solid; 
+    background: rgb(184,2,25);
+    background: linear-gradient(90deg, rgba(184,2,25,1) 0%, rgba(7,26,33,1) 64%);
+    border-right: none;
 }
 #desc_jordan h2{
     text-align: center;
@@ -225,13 +226,16 @@ nav {
     width:50%;
     height: 459px;
     border: black 2px solid; 
+    border-right: none;
     background-image: url(img/indexlogos/miami_heat.jpg);
 }
 #desc_lebron { 
     width:50%;
     height: 459px;
     border: black 2px solid; 
-    background-color: #edeef0;
+    border-left: none;
+    background: rgb(7,26,33);
+    background: linear-gradient(90deg, rgba(7,26,33,1) 48%, rgba(255,255,255,1) 100%);
 }
 #desc_lebron h2{
     text-align: center;
@@ -254,14 +258,16 @@ nav {
     width:50%;
     height: 459px;
     border: black 2px solid; 
+    border-left: none;
     background-image: url(img/indexlogos/kareem_lakers.jpg);
 }
 #desc_kareem { 
     width:50%;
     height: 459px;
     border: black 2px solid; 
+    border-right: none;
     background: rgb(253,185,39);
-    background: linear-gradient(90deg, rgba(253,185,39,1) 2%, rgba(7,25,35,1) 55%);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(7,25,35,1) 64%);
 }
 #desc_kareem h2{
     text-align: center;
@@ -284,12 +290,15 @@ nav {
     height: 459px;
     border: black 2px solid; 
     background-image: url(img/indexlogos/russel_celtics.jpg);
+    border-right: none;
 }
 #desc_russel { 
     width:50%;
     height: 459px;
     border: black 2px solid; 
-    background-color: #edeef0;
+    background: rgb(7,26,33);
+    background: linear-gradient(90deg, rgba(7,26,33,1) 48%, rgba(0,122,51,1) 100%);
+    border-left: none;
 }
 #desc_russel h2{
     text-align: center;
@@ -312,16 +321,16 @@ nav {
     height: 459px;
     border: black 2px solid; 
     background-image: url(img/indexlogos/magic.jpg);
+    border-left: none;
 }
 #desc_magic { 
     width:50%;
     height: 459px;
     border: black 2px solid;
+    border-right: none;
     background: rgb(253,185,39);
-    background: linear-gradient(90deg, rgba(253,185,39,1) 2%, rgba(7,25,35,1) 55%); 
-    animation-name: cambiarPorcentaje;
-    animation-duration: .98;
-    animation-iteration-count: infinite;
+    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(7,25,35,1) 64%);
+
 }
 #desc_magic h2{
     text-align: center;
@@ -344,12 +353,15 @@ nav {
     height: 459px;
     border: black 2px solid; 
     background-image: url(img/indexlogos/wilt_76.jpg);
+    border-right: none;
 }
 #desc_wilt { 
     width:50%;
     height: 459px;
     border: black 2px solid;
-    background-color: #edeef0;
+    background: rgb(7,26,33);
+    background: linear-gradient(90deg, rgba(7,26,33,1) 48%, rgba(33,63,127,1) 100%);
+    border-left: none;
 }
 #desc_wilt h2{
     text-align: center;
@@ -372,12 +384,15 @@ nav {
     height: 459px;
     border: black 2px solid; 
     background-image: url(img/indexlogos/bird_celtics.jpg);
+    border-left: none;
 }
 #desc_bird { 
     width:50%;
     height: 459px;
     border: black 2px solid;
-    background-color: #edeef0;
+    background: rgb(0,122,51);
+    background: linear-gradient(90deg, rgba(0,122,51,1) 0%, rgba(7,26,33,1) 64%);
+    border-right: none;
 }
 #desc_bird h2{
     text-align: center;
@@ -400,12 +415,15 @@ nav {
     height: 459px;
     border: black 2px solid; 
     background-image: url(img/indexlogos/duncan.png);
+    border-right: none;
 }
 #desc_duncan { 
     width:50%;
     height: 459px;
     border: black 2px solid;
-    background-color: #edeef0;
+    border-left: none;
+    background: rgb(7,26,33);
+    background: linear-gradient(90deg, rgba(7,26,33,1) 48%, rgba(255,255,255,1) 100%);
 }
 #desc_duncan h2{
     text-align: center;
@@ -422,7 +440,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background: rgb(253,185,39);
-background: linear-gradient(90deg, rgba(253,185,39,1) 39%, rgba(7,25,35,1) 98%);
+    background: linear-gradient(90deg, rgba(253,185,39,1) 39%, rgba(7,25,35,1) 98%);
 }
 
 #kobe_lakers_logo  {
@@ -438,51 +456,10 @@ background: linear-gradient(90deg, rgba(253,185,39,1) 39%, rgba(7,25,35,1) 98%);
     border: black 2px solid;
     border-right: none;
     background: rgb(253,185,39);
-    background: linear-gradient(90deg, rgba(253,185,39,1) 2%, rgba(7,25,35,1) 55%);
-    animation-name: cambiarPorcentaje;
-    animation-duration: .98;
-    animation-iteration-count: infinite;
+    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(7,25,35,1) 64%);
 }
-@keyframes cambiarPorcentaje {
-    0% {
-        background: rgb(253,185,39);
-    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 10%);
-    }
-    10% {
-        background: rgb(253,185,39);
-        background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 20%);
-    }
-    20% {
-        background: rgb(253,185,39);
-    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 30%);
-    }
-    30% {
-        background: rgb(253,185,39);
-    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 40%);
-    }
-    40% {
-        background: rgb(253,185,39);
-    background: linear-gradient(90deg, rgba(253,185,39,1) 0%, rgba(4,25,24,1) 55%);
-    }
-    50% {
-        content: "60%";
-    }
-    60% {
-        content: "70%";
-    }
-    70% {
-        content: "75%";
-    }
-    80% {
-        content: "50%";
-    }
-    90% {
-        content: "30%";
-    }
-    100% {
-        content: "65%";
-    }
-}
+
+
 #desc_kobe h2{
     text-align: center;
     color: #FDB927;
@@ -504,13 +481,17 @@ background: linear-gradient(90deg, rgba(253,185,39,1) 39%, rgba(7,25,35,1) 98%);
     height: 459px;
     border: black 2px solid; 
     background-image: url(img/indexlogos/oneal.jpg);
+    border-right: none;
 }
 #desc_oneal { 
     width:50%;
     height: 459px;
     border: black 2px solid;
     background: rgb(7,25,35);
-    background: linear-gradient(90deg, rgba(7,25,35,1) 41%, rgba(253,185,39,1) 99%);}
+    background: linear-gradient(90deg, rgba(7,25,35,1) 41%, rgba(253,185,39,1) 99%);
+    border-left: none;
+}
+    
 #desc_oneal h2{
     text-align: center;
     color: #FDB927;
