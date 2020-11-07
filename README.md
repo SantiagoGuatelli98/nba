@@ -1,3 +1,4 @@
 # nba
 
-https://trusting-dijkstra-dec33a.netlify.app
+https://nbarecords.netlify.app
+
