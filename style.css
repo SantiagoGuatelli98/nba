@@ -444,8 +444,6 @@ nav {
 .kobe_contenedor {
     display: flex;
     justify-content: space-between;
-    background: rgb(253,185,39);
-    background: linear-gradient(90deg, rgba(253,185,39,1) 39%, rgba(7,25,35,1) 98%);
 }
 
 #kobe_lakers_logo  {
@@ -543,23 +541,67 @@ nav {
     padding-top: 8px;
 }
 .wsp {
-    background: url(img/logo/whatsapp\ \(1\).png);
-    background-repeat: no-repeat;
     width: 38px;
     height: 38px;
+    position: relative;
 }
-.wsp:hover {
-    width: 160px;
-    background-color: white;
+.wsp_number p{
+    display: inline-block;
+    color: white;
+    font-family: Helvetica,sans-serif;
+    font-weight: 800;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.wsp_number img{
+    float: right;
+}
+.wsp_number{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 100%;
+    background-color:#303030;
+    opacity: 0;
+    border-radius: 20px;
+    transition: all .7s;
+}
+.wsp_number:hover {
+    opacity: 1;
 }
 
 .insta {
-    background: url(img/logo/instagram\ \(2\).png);
     width: 38px;
     height: 38px;
-    background-repeat: no-repeat;
+    position: relative;
 }
-.insta:hover {
-    width: 160px;
-    background-color: white;
+.insta_page{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 185px;
+    height: 100%;
+    background-color:#303030;
+    opacity: 0;
+    border-radius: 20px;
+    transition: all .7s;
+}
+.insta_page p{
+    display: inline-block;
+    color: white;
+    font-family: Helvetica,sans-serif;
+    font-weight: 800;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+}
+.insta_page img{
+    float: right;
+}
+.insta_page:hover {
+    opacity: 1;
 }
