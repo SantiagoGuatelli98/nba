@@ -198,7 +198,6 @@ nav {
 .jordan_contenedor {
     display: flex;
     justify-content: space-between;
-    border: black 2px solid;
 }
 
 #bulls_logo  {
